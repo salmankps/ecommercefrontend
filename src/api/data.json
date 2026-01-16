@@ -1,0 +1,938 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "admin",
+      "email": "admin007@gmail.com",
+      "password": "123654",
+      "status": "active",
+      "role": "admin",
+      "cart": [
+        {
+          "id": "25",
+          "name": "Luffy Gear 5",
+          "brand": "Banpresto",
+          "price": 2699,
+          "stock": 12,
+          "image": "https://bearhugs.in/cdn/shop/files/buy-one-piece-sun-god-gear-5-nika-luffy-action-figure-28-cm-at-bear-hugs-49275.webp?v=1754765831&width=990",
+          "category": "Anime",
+          "status": "active",
+          "quantity": 1
+        },
+        {
+          "id": "24",
+          "name": "Vegeta Final Flash",
+          "brand": "Bandai",
+          "price": 2599,
+          "stock": 15,
+          "image": "https://i.pinimg.com/736x/f0/7a/d0/f07ad08048227dddbe1ec703867c7302.jpg",
+          "category": "Anime",
+          "status": "active",
+          "quantity": 1
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "25",
+          "name": "Luffy Gear 5",
+          "brand": "Banpresto",
+          "price": 2699,
+          "stock": 12,
+          "image": "https://bearhugs.in/cdn/shop/files/buy-one-piece-sun-god-gear-5-nika-luffy-action-figure-28-cm-at-bear-hugs-49275.webp?v=1754765831&width=990",
+          "category": "Anime",
+          "status": "active"
+        },
+        {
+          "id": "24",
+          "name": "Vegeta Final Flash",
+          "brand": "Bandai",
+          "price": 2599,
+          "stock": 15,
+          "image": "https://i.pinimg.com/736x/f0/7a/d0/f07ad08048227dddbe1ec703867c7302.jpg",
+          "category": "Anime",
+          "status": "active"
+        },
+        {
+          "id": "22",
+          "name": "Sasuke Eternal Mangekyou",
+          "brand": "Banpresto",
+          "price": 2199,
+          "stock": 14,
+          "image": "https://i.pinimg.com/1200x/df/65/f2/df65f2d13b066d8f3e4f5e043c9505bd.jpg",
+          "category": "Anime",
+          "status": "active"
+        }
+      ],
+      "orders": [
+        {
+          "userId": "1",
+          "items": [
+            {
+              "id": "24",
+              "name": "Vegeta Final Flash",
+              "brand": "Bandai",
+              "price": 2599,
+              "stock": 15,
+              "image": "https://i.pinimg.com/736x/f0/7a/d0/f07ad08048227dddbe1ec703867c7302.jpg",
+              "category": "Anime",
+              "status": "active",
+              "quantity": 1
+            },
+            {
+              "id": "25",
+              "name": "Luffy Gear 5",
+              "brand": "Banpresto",
+              "price": 2699,
+              "stock": 12,
+              "image": "https://bearhugs.in/cdn/shop/files/buy-one-piece-sun-god-gear-5-nika-luffy-action-figure-28-cm-at-bear-hugs-49275.webp?v=1754765831&width=990",
+              "category": "Anime",
+              "status": "active",
+              "quantity": 1
+            }
+          ],
+          "delivery": {
+            "name": "asd",
+            "mobile": "8521",
+            "address": "dfg",
+            "place": "fgh",
+            "pincode": "51"
+          },
+          "date": "9/1/2025, 6:40:52 PM"
+        },
+        {
+          "userId": "1",
+          "items": [
+            {
+              "id": "24",
+              "name": "Vegeta Final Flash",
+              "brand": "Bandai",
+              "price": 2599,
+              "stock": 15,
+              "image": "https://i.pinimg.com/736x/f0/7a/d0/f07ad08048227dddbe1ec703867c7302.jpg",
+              "category": "Anime",
+              "status": "active",
+              "quantity": 1
+            },
+            {
+              "id": "22",
+              "name": "Sasuke Eternal Mangekyou",
+              "brand": "Banpresto",
+              "price": 2199,
+              "stock": 14,
+              "image": "https://i.pinimg.com/1200x/df/65/f2/df65f2d13b066d8f3e4f5e043c9505bd.jpg",
+              "category": "Anime",
+              "status": "active",
+              "quantity": 1
+            }
+          ],
+          "delivery": {
+            "name": "f",
+            "mobile": "85421894653",
+            "address": "df",
+            "place": "fd",
+            "pincode": "dfg"
+          },
+          "date": "9/2/2025, 2:47:53 PM"
+        }
+      ]
+    },
+    {
+      "id": "ad50",
+      "name": "baboo",
+      "email": "babu@gmail.com",
+      "password": "12345",
+      "status": "active",
+      "role": "user",
+      "cart": [
+        {
+          "id": "24",
+          "name": "Vegeta Final Flash",
+          "brand": "Bandai",
+          "price": 2599,
+          "stock": 15,
+          "image": "https://i.pinimg.com/736x/f0/7a/d0/f07ad08048227dddbe1ec703867c7302.jpg",
+          "category": "Anime",
+          "status": "active",
+          "quantity": 1
+        },
+        {
+          "id": "23",
+          "name": "Goku Super Saiyan",
+          "brand": "Bandai",
+          "price": 2499,
+          "stock": 20,
+          "image": "https://i.pinimg.com/1200x/df/7f/ec/df7fecbc9770a93449ec12255ecd950c.jpg",
+          "category": "Anime",
+          "status": "active",
+          "quantity": 2
+        }
+      ],
+      "orders": [
+        {
+          "userId": "ad50",
+          "items": [
+            {
+              "id": "24",
+              "name": "Vegeta Final Flash",
+              "brand": "Bandai",
+              "price": 2599,
+              "stock": 15,
+              "image": "https://i.pinimg.com/736x/f0/7a/d0/f07ad08048227dddbe1ec703867c7302.jpg",
+              "category": "Anime",
+              "status": "active",
+              "quantity": 1
+            },
+            {
+              "id": "25",
+              "name": "Luffy Gear 5",
+              "brand": "Banpresto",
+              "price": 2699,
+              "stock": 12,
+              "image": "https://bearhugs.in/cdn/shop/files/buy-one-piece-sun-god-gear-5-nika-luffy-action-figure-28-cm-at-bear-hugs-49275.webp?v=1754765831&width=990",
+              "category": "Anime",
+              "status": "active",
+              "quantity": 1
+            },
+            {
+              "id": "26",
+              "name": "Zoro Three Swords",
+              "brand": "Banpresto",
+              "price": 2399,
+              "stock": 10,
+              "image": "https://i.pinimg.com/1200x/2d/3f/c6/2d3fc67edec5ed97c31858373e66793f.jpg",
+              "category": "Anime",
+              "status": "active",
+              "quantity": 1
+            }
+          ],
+          "delivery": {
+            "name": "baboo",
+            "mobile": "85421894653",
+            "address": "wertyu",
+            "place": "swedrfgth",
+            "pincode": "dfg"
+          },
+          "date": "9/1/2025, 2:39:15 PM"
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "23",
+          "name": "Goku Super Saiyan",
+          "brand": "Bandai",
+          "price": 2499,
+          "stock": 20,
+          "image": "https://i.pinimg.com/1200x/df/7f/ec/df7fecbc9770a93449ec12255ecd950c.jpg",
+          "category": "Anime",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "ca10",
+      "name": "adil",
+      "email": "adi@gmail.com",
+      "password": "12345",
+      "status": "active",
+      "role": "user",
+      "cart": [
+        {
+          "id": "25",
+          "name": "Luffy Gear 5",
+          "brand": "Banpresto",
+          "price": 2699,
+          "stock": 12,
+          "image": "https://bearhugs.in/cdn/shop/files/buy-one-piece-sun-god-gear-5-nika-luffy-action-figure-28-cm-at-bear-hugs-49275.webp?v=1754765831&width=990",
+          "category": "Anime",
+          "status": "active",
+          "quantity": 1
+        },
+        {
+          "id": "16",
+          "name": "Cyborg Justice League",
+          "brand": "DC Multiverse",
+          "price": 2299,
+          "stock": 7,
+          "image": "https://i.pinimg.com/1200x/b4/47/c6/b447c6393960bbfb1215db262b9a21d5.jpg",
+          "category": "DC",
+          "status": "active",
+          "quantity": 1
+        },
+        {
+          "id": "17",
+          "name": "Joker Clown Prince",
+          "brand": "DC Collectibles",
+          "price": 2799,
+          "stock": 15,
+          "image": "https://i.pinimg.com/736x/29/fb/36/29fb360827d69e16099bd25c8cc6c1e8.jpg",
+          "category": "DC",
+          "status": "active",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "name": "Captain America Shield Edition",
+          "brand": "Hasbro",
+          "price": 2499,
+          "stock": 8,
+          "image": "https://i.pinimg.com/1200x/a2/f4/c5/a2f4c513bf5b5bcac5f7309d88f00669.jpg",
+          "category": "Marvel",
+          "status": "active",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "name": "Spider-Man Far From Home",
+          "brand": "Marvel Legends",
+          "price": 1999,
+          "stock": 15,
+          "image": "https://i.pinimg.com/736x/c4/c8/e8/c4c8e88ff2b0f80a259114ce754b4f04.jpg",
+          "category": "Marvel",
+          "status": "active",
+          "quantity": 1
+        },
+        { 
+          "id": "4",
+          "name": "Doctor Strange Multiverse Edition",
+          "brand": "Hot Toys",
+          "price": 3999,
+          "stock": 6,
+          "image": "https://i.pinimg.com/1200x/5b/4d/89/5b4d89276921a816dccaa446f16c423e.jpg",
+          "category": "Marvel",
+          "status": "active",
+          "quantity": 1
+        },
+        {
+          "id": "5",
+          "name": "Hulk Smash Figure",
+          "brand": "Marvel Select",
+          "price": 3499,
+          "stock": 10,
+          "image": "https://i.pinimg.com/1200x/7e/25/0e/7e250e591bd8806520fa7bca8257a50f.jpg",
+          "category": "Marvel",
+          "status": "active",
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "name": "Black Panther Wakanda Edition",
+          "brand": "Marvel Legends",
+          "price": 2799,
+          "stock": 7,
+          "image": "https://i.pinimg.com/736x/4d/b4/73/4db4735a8f71245d17564f0a89c7d01b.jpg",
+          "category": "Marvel",
+          "status": "active",
+          "quantity": 1
+        }
+      ],
+      "wishlist": [],
+      "orders": [
+        {
+          "userId": "ca10",
+          "items": [
+            {
+              "id": "25",
+              "name": "Luffy Gear 5",
+              "brand": "Banpresto",
+              "price": 2699,
+              "stock": 12,
+              "image": "https://bearhugs.in/cdn/shop/files/buy-one-piece-sun-god-gear-5-nika-luffy-action-figure-28-cm-at-bear-hugs-49275.webp?v=1754765831&width=990",
+              "category": "Anime",
+              "status": "active",
+              "quantity": 1
+            },
+            {
+              "id": "24",
+              "name": "Vegeta Final Flash",
+              "brand": "Bandai",
+              "price": 2599,
+              "stock": 15,
+              "image": "https://i.pinimg.com/736x/f0/7a/d0/f07ad08048227dddbe1ec703867c7302.jpg",
+              "category": "Anime",
+              "status": "active",
+              "quantity": 1
+            },
+            {
+              "id": "7",
+              "name": "Thor Stormbreaker",
+              "brand": "Hasbro",
+              "price": 2599,
+              "stock": 14,
+              "image": "https://i.pinimg.com/1200x/f9/56/6c/f9566ca45656190fe3bc4b69e4580de4.jpg",
+              "category": "Marvel",
+              "status": "active",
+              "quantity": 1
+            }
+          ],
+          "delivery": {
+            "name": "salman",
+            "mobile": "85421894653",
+            "address": "wertyu",
+            "place": "fdv",
+            "pincode": "nm,"
+          },
+          "date": "9/1/2025, 6:57:25 PM"
+        },
+        {
+          "userId": "ca10",
+          "items": [
+            {
+              "id": "3",
+              "name": "Spider-Man Far From Home",
+              "brand": "Marvel Legends",
+              "price": 1999,
+              "stock": 15,
+              "image": "https://i.pinimg.com/736x/c4/c8/e8/c4c8e88ff2b0f80a259114ce754b4f04.jpg",
+              "category": "Marvel",
+              "status": "active",
+              "quantity": 1
+            },
+            {
+              "id": "23",
+              "name": "Goku Super Saiyan",
+              "brand": "Bandai",
+              "price": 2499,
+              "stock": 20,
+              "image": "https://i.pinimg.com/1200x/df/7f/ec/df7fecbc9770a93449ec12255ecd950c.jpg",
+              "category": "Anime",
+              "status": "active",
+              "quantity": 1
+            },
+            {
+              "id": "29",
+              "name": "Tanjiro Kamado",
+              "brand": "Banpresto",
+              "price": 2299,
+              "stock": 11,
+              "image": "https://i.pinimg.com/1200x/41/ce/86/41ce869b78be94ab96a3941ba8f92a06.jpg",
+              "category": "Anime",
+              "status": "active",
+              "quantity": 1
+            },
+            {
+              "id": "25",
+              "name": "Luffy Gear 5",
+              "brand": "Banpresto",
+              "price": 2699,
+              "stock": 12,
+              "image": "https://bearhugs.in/cdn/shop/files/buy-one-piece-sun-god-gear-5-nika-luffy-action-figure-28-cm-at-bear-hugs-49275.webp?v=1754765831&width=990",
+              "category": "Anime",
+              "status": "active",
+              "quantity": 2
+            }
+          ],
+          "delivery": {
+            "name": "]p,o",
+            "mobile": "k,i-",
+            "address": "mk ",
+            "place": "km ",
+            "pincode": "jm"
+          },
+          "date": "9/2/2025, 9:38:17 AM"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Iron Man Mark 58",
+      "brand": "Marvel Legends",
+      "price": 2999,
+      "stock": 12,
+      "image": "https://i.pinimg.com/1200x/f7/a2/fd/f7a2fd36fb46f0f68882ebd7da21ad35.jpg",
+      "category": "Marvel",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "name": "Captain America Shield Edition",
+      "brand": "Hasbro",
+      "price": 2499,
+      "stock": 8,
+      "image": "https://i.pinimg.com/1200x/a2/f4/c5/a2f4c513bf5b5bcac5f7309d88f00669.jpg",
+      "category": "Marvel",
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "name": "Spider-Man Far From Home",
+      "brand": "Marvel Legends",
+      "price": 1999,
+      "stock": 15,
+      "image": "https://i.pinimg.com/736x/c4/c8/e8/c4c8e88ff2b0f80a259114ce754b4f04.jpg",
+      "category": "Marvel",
+      "status": "active"
+    },
+    {
+      "id": "4",
+      "name": "Doctor Strange Multiverse Edition",
+      "brand": "Hot Toys",
+      "price": 3999,
+      "stock": 6,
+      "image": "https://i.pinimg.com/1200x/5b/4d/89/5b4d89276921a816dccaa446f16c423e.jpg",
+      "category": "Marvel",
+      "status": "active"
+    },
+    {
+      "id": "5",
+      "name": "Hulk Smash Figure",
+      "brand": "Marvel Select",
+      "price": 3499,
+      "stock": 10,
+      "image": "https://i.pinimg.com/1200x/7e/25/0e/7e250e591bd8806520fa7bca8257a50f.jpg",
+      "category": "Marvel",
+      "status": "active"
+    },
+    {
+      "id": "6",
+      "name": "Black Panther Wakanda Edition",
+      "brand": "Marvel Legends",
+      "price": 2799,
+      "stock": 7,
+      "image": "https://i.pinimg.com/736x/4d/b4/73/4db4735a8f71245d17564f0a89c7d01b.jpg",
+      "category": "Marvel",
+      "status": "active"
+    },
+    {
+      "id": "7",
+      "name": "Thor Stormbreaker",
+      "brand": "Hasbro",
+      "price": 2599,
+      "stock": 14,
+      "image": "https://i.pinimg.com/1200x/f9/56/6c/f9566ca45656190fe3bc4b69e4580de4.jpg",
+      "category": "Marvel",
+      "status": "active"
+    },
+    {
+      "id": "8",
+      "name": "Loki TVA Edition",
+      "brand": "Funko Pop",
+      "price": 1299,
+      "stock": 20,
+      "image": "https://i.pinimg.com/1200x/3c/a2/33/3ca23357c65aa94cc57441f4b69a9e11.jpg",
+      "category": "Marvel",
+      "status": "active"
+    },
+    {
+      "id": "9",
+      "name": "Thanos Infinity Gauntlet",
+      "brand": "Hot Toys",
+      "price": 4999,
+      "stock": 5,
+      "image": "https://i.pinimg.com/736x/33/32/56/333256a3ba6dfa86bc84c2df0bddf4b3.jpg",
+      "category": "Marvel",
+      "status": "active"
+    },
+    {
+      "id": "10",
+      "name": "Scarlet Witch WandaVision",
+      "brand": "Marvel Legends",
+      "price": 2399,
+      "stock": 9,
+      "image": "https://i.pinimg.com/1200x/52/2b/11/522b11fe5a3fff304b6b8cada120c319.jpg",
+      "category": "Marvel",
+      "status": "active"
+    },
+    {
+      "id": "11",
+      "name": "Batman Dark Knight",
+      "brand": "DC Multiverse",
+      "price": 2999,
+      "stock": 11,
+      "image": "https://i.pinimg.com/736x/94/32/13/943213da09688f9eda9b0940a150d941.jpg",
+      "category": "DC",
+      "status": "active"
+    },
+    {
+      "id": "12",
+      "name": "Superman Man of Steel",
+      "brand": "DC Collectibles",
+      "price": 2699,
+      "stock": 13,
+      "image": "https://i.pinimg.com/1200x/bb/15/fa/bb15fa3b9d3eac05c319177aa8fca912.jpg",
+      "category": "DC",
+      "status": "active"
+    },
+    {
+      "id": "13",
+      "name": "Wonder Woman Golden Armor",
+      "brand": "DC Multiverse",
+      "price": 2799,
+      "stock": 10,
+      "image": "https://i.pinimg.com/1200x/32/82/f9/3282f9ab96a255212fd705a4a84cc0ff.jpg",
+      "category": "DC",
+      "status": "active"
+    },
+    {
+      "id": "14",
+      "name": "Flash Speed Force Edition",
+      "brand": "DC Multiverse",
+      "price": 2499,
+      "stock": 12,
+      "image": "https://i.pinimg.com/736x/a8/5e/32/a85e32a3a6b0d233b003c033b49b3c45.jpg",
+      "category": "DC",
+      "status": "active"
+    },
+    {
+      "id": "15",
+      "name": "Aquaman Trident Edition",
+      "brand": "DC Collectibles",
+      "price": 2599,
+      "stock": 9,
+      "image": "https://i.pinimg.com/1200x/4c/cc/ea/4cccea663594c99baf4bd9aa2d612f7c.jpg",
+      "category": "DC",
+      "status": "active"
+    },
+    {
+      "id": "16",
+      "name": "Cyborg Justice League",
+      "brand": "DC Multiverse",
+      "price": 2299,
+      "stock": 7,
+      "image": "https://i.pinimg.com/1200x/b4/47/c6/b447c6393960bbfb1215db262b9a21d5.jpg",
+      "category": "DC",
+      "status": "active"
+    },
+    {
+      "id": "17",
+      "name": "Joker Clown Prince",
+      "brand": "DC Collectibles",
+      "price": 2799,
+      "stock": 15,
+      "image": "https://i.pinimg.com/736x/29/fb/36/29fb360827d69e16099bd25c8cc6c1e8.jpg",
+      "category": "DC",
+      "status": "active"
+    },
+    {
+      "id": "18",
+      "name": "Harley Quinn Birds of Prey",
+      "brand": "Funko Pop",
+      "price": 1499,
+      "stock": 18,
+      "image": "https://i.pinimg.com/736x/7f/48/fd/7f48fdb4d20bc5bc7f2afd46cc9431fe.jpg",
+      "category": "DC",
+      "status": "active"
+    },
+    {
+      "id": "19",
+      "name": "Green Lantern Power Ring",
+      "brand": "DC Multiverse",
+      "price": 2399,
+      "stock": 8,
+      "image": "https://i.pinimg.com/1200x/ce/03/b6/ce03b6cd67f2c9a45962f91fb6b0f2b2.jpg",
+      "category": "DC",
+      "status": "active"
+    },
+    {
+      "id": "20",
+      "name": "Shazam Lightning Edition",
+      "brand": "DC Collectibles",
+      "price": 2599,
+      "stock": 12,
+      "image": "https://i.pinimg.com/1200x/fd/d0/c4/fdd0c473093c494b0b0e9534185a88a6.jpg",
+      "category": "DC",
+      "status": "active"
+    },
+    {
+      "id": "21",
+      "name": "Naruto Sage Mode",
+      "brand": "Banpresto",
+      "price": 1999,
+      "stock": 16,
+      "image": "https://i.pinimg.com/736x/32/23/00/3223009fdb79a30e109c39be6db392c2.jpg",
+      "category": "Anime",
+      "status": "active"
+    },
+    {
+      "id": "22",
+      "name": "Sasuke Eternal Mangekyou",
+      "brand": "Banpresto",
+      "price": 2199,
+      "stock": 14,
+      "image": "https://i.pinimg.com/1200x/df/65/f2/df65f2d13b066d8f3e4f5e043c9505bd.jpg",
+      "category": "Anime",
+      "status": "active"
+    },
+    {
+      "id": "23",
+      "name": "Goku Super Saiyan",
+      "brand": "Bandai",
+      "price": 2499,
+      "stock": 20,
+      "image": "https://i.pinimg.com/1200x/df/7f/ec/df7fecbc9770a93449ec12255ecd950c.jpg",
+      "category": "Anime",
+      "status": "active"
+    },
+    {
+      "id": "24",
+      "name": "Vegeta Final Flash",
+      "brand": "Bandai",
+      "price": 2599,
+      "stock": 15,
+      "image": "https://i.pinimg.com/736x/f0/7a/d0/f07ad08048227dddbe1ec703867c7302.jpg",
+      "category": "Anime",
+      "status": "active"
+    },
+    {
+      "id": "25",
+      "name": "Luffy Gear 5",
+      "brand": "Banpresto",
+      "price": 2699,
+      "stock": 12,
+      "image": "https://bearhugs.in/cdn/shop/files/buy-one-piece-sun-god-gear-5-nika-luffy-action-figure-28-cm-at-bear-hugs-49275.webp?v=1754765831&width=990",
+      "category": "Anime",
+      "status": "active"
+    },
+    {
+      "id": "26",
+      "name": "Zoro Three Swords",
+      "brand": "Banpresto",
+      "price": 2399,
+      "stock": 10,
+      "image": "https://i.pinimg.com/1200x/2d/3f/c6/2d3fc67edec5ed97c31858373e66793f.jpg",
+      "category": "Anime",
+      "status": "active"
+    },
+    {
+      "id": "27",
+      "name": "Eren Yeager Titan Form",
+      "brand": "Good Smile",
+      "price": 2999,
+      "stock": 8,
+      "image": "https://i.pinimg.com/1200x/b2/eb/eb/b2ebeb23dfc67755c5b3b98520036ae7.jpg",
+      "category": "Anime",
+      "status": "active"
+    },
+    {
+      "id": "28",
+      "name": "Levi Ackerman",
+      "brand": "Good Smile",
+      "price": 2599,
+      "stock": 9,
+      "image": "https://i.pinimg.com/736x/dc/31/a9/dc31a95682b372be65164c47d6ca9060.jpg",
+      "category": "Anime",
+      "status": "active"
+    },
+    {
+      "id": "29",
+      "name": "Tanjiro Kamado",
+      "brand": "Banpresto",
+      "price": 2299,
+      "stock": 11,
+      "image": "https://i.pinimg.com/1200x/41/ce/86/41ce869b78be94ab96a3941ba8f92a06.jpg",
+      "category": "Anime",
+      "status": "active"
+    },
+    {
+      "id": "30",
+      "name": "Nezuko Kamado",
+      "brand": "Banpresto",
+      "price": 2199,
+      "stock": 13,
+      "image": "https://i.pinimg.com/1200x/63/26/0f/63260fdc0d4aad5dc8eb3cd3869602f1.jpg",
+      "category": "Anime",
+      "status": "active"
+    }
+  ],
+  "orders": [
+    {
+      "id": "b9ca",
+      "userId": "ad50",
+      "productId": "24",
+      "name": "Vegeta Final Flash",
+      "quantity": 1,
+      "price": 2599,
+      "image": "https://i.pinimg.com/736x/f0/7a/d0/f07ad08048227dddbe1ec703867c7302.jpg",
+      "delivery": {
+        "name": "baboo",
+        "mobile": "85421894653",
+        "address": "wertyu",
+        "place": "swedrfgth",
+        "pincode": "dfg"
+      },
+      "date": "9/1/2025, 2:39:15 PM",
+      "total": 2599
+    },
+    {
+      "id": "8adb",
+      "userId": "ad50",
+      "productId": "26",
+      "name": "Zoro Three Swords",
+      "quantity": 1,
+      "price": 2399,
+      "image": "https://i.pinimg.com/1200x/2d/3f/c6/2d3fc67edec5ed97c31858373e66793f.jpg",
+      "delivery": {
+        "name": "baboo",
+        "mobile": "85421894653",
+        "address": "wertyu",
+        "place": "swedrfgth",
+        "pincode": "dfg"
+      },
+      "date": "9/1/2025, 2:39:15 PM",
+      "total": 2399
+    },
+    {
+      "id": "81cf",
+      "userId": "ad50",
+      "productId": "25",
+      "name": "Luffy Gear 5",
+      "quantity": 1,
+      "price": 2699,
+      "image": "https://bearhugs.in/cdn/shop/files/buy-one-piece-sun-god-gear-5-nika-luffy-action-figure-28-cm-at-bear-hugs-49275.webp?v=1754765831&width=990",
+      "delivery": {
+        "name": "baboo",
+        "mobile": "85421894653",
+        "address": "wertyu",
+        "place": "swedrfgth",
+        "pincode": "dfg"
+      },
+      "date": "9/1/2025, 2:39:15 PM",
+      "total": 2699
+    },
+    {
+      "id": "93ce",
+      "userId": "1",
+      "productId": "24",
+      "name": "Vegeta Final Flash",
+      "quantity": 1,
+      "price": 2599,
+      "image": "https://i.pinimg.com/736x/f0/7a/d0/f07ad08048227dddbe1ec703867c7302.jpg",
+      "delivery": {
+        "name": "asd",
+        "mobile": "8521",
+        "address": "dfg",
+        "place": "fgh",
+        "pincode": "51"
+      },
+      "date": "9/1/2025, 6:40:52 PM",
+      "total": 2599
+    },
+    {
+      "id": "3a20",
+      "userId": "1",
+      "productId": "25",
+      "name": "Luffy Gear 5",
+      "quantity": 1,
+      "price": 2699,
+      "image": "https://bearhugs.in/cdn/shop/files/buy-one-piece-sun-god-gear-5-nika-luffy-action-figure-28-cm-at-bear-hugs-49275.webp?v=1754765831&width=990",
+      "delivery": {
+        "name": "asd",
+        "mobile": "8521",
+        "address": "dfg",
+        "place": "fgh",
+        "pincode": "51"
+      },
+      "date": "9/1/2025, 6:40:52 PM",
+      "total": 2699
+    },
+    {
+      "id": "eaa1",
+      "userId": "ca10",
+      "productId": "25",
+      "name": "Luffy Gear 5",
+      "quantity": 1,
+      "price": 2699,
+      "image": "https://bearhugs.in/cdn/shop/files/buy-one-piece-sun-god-gear-5-nika-luffy-action-figure-28-cm-at-bear-hugs-49275.webp?v=1754765831&width=990",
+      "delivery": {
+        "name": "salman",
+        "mobile": "85421894653",
+        "address": "wertyu",
+        "place": "fdv",
+        "pincode": "nm,"
+      },
+      "date": "9/1/2025, 6:57:25 PM",
+      "total": 2699
+    },
+    {
+      "id": "188e",
+      "userId": "ca10",
+      "productId": "7",
+      "name": "Thor Stormbreaker",
+      "quantity": 1,
+      "price": 2599,
+      "image": "https://i.pinimg.com/1200x/f9/56/6c/f9566ca45656190fe3bc4b69e4580de4.jpg",
+      "delivery": {
+        "name": "salman",
+        "mobile": "85421894653",
+        "address": "wertyu",
+        "place": "fdv",
+        "pincode": "nm,"
+      },
+      "date": "9/1/2025, 6:57:25 PM",
+      "total": 2599
+    },
+    {
+      "id": "e300",
+      "userId": "ca10",
+      "productId": "24",
+      "name": "Vegeta Final Flash",
+      "quantity": 1,
+      "price": 2599,
+      "image": "https://i.pinimg.com/736x/f0/7a/d0/f07ad08048227dddbe1ec703867c7302.jpg",
+      "delivery": {
+        "name": "salman",
+        "mobile": "85421894653",
+        "address": "wertyu",
+        "place": "fdv",
+        "pincode": "nm,"
+      },
+      "date": "9/1/2025, 6:57:25 PM",
+      "total": 2599
+    },
+    {
+      "id": "1170",
+      "userId": "1",
+      "productId": "24",
+      "name": "Vegeta Final Flash",
+      "quantity": 1,
+      "price": 2599,
+      "image": "https://i.pinimg.com/736x/f0/7a/d0/f07ad08048227dddbe1ec703867c7302.jpg",
+      "delivery": {
+        "name": "f",
+        "mobile": "85421894653",
+        "address": "df",
+        "place": "fd",
+        "pincode": "dfg"
+      },
+      "date": "9/2/2025, 2:47:53 PM",
+      "total": 2599
+    },
+    {
+      "id": "a69c",
+      "userId": "1",
+      "productId": "22",
+      "name": "Sasuke Eternal Mangekyou",
+      "quantity": 1,
+      "price": 2199,
+      "image": "https://i.pinimg.com/1200x/df/65/f2/df65f2d13b066d8f3e4f5e043c9505bd.jpg",
+      "delivery": {
+        "name": "f",
+        "mobile": "85421894653",
+        "address": "df",
+        "place": "fd",
+        "pincode": "dfg"
+      },
+      "date": "9/2/2025, 2:47:53 PM",
+      "total": 2199
+    },
+    {
+      "id": "5555",
+      "userId": null,
+      "productId": "23",
+      "name": "Goku Super Saiyan",
+      "quantity": 2,
+      "price": 2499,
+      "image": "https://i.pinimg.com/1200x/df/7f/ec/df7fecbc9770a93449ec12255ecd950c.jpg",
+      "delivery": {
+        "name": "salman",
+        "mobile": "85421894653",
+        "address": "smallville",
+        "place": "washington",
+        "pincode": "65355"
+      },
+      "date": "9/3/2025, 12:33:13 PM",
+      "total": 4998
+    }
+  ]
+}
