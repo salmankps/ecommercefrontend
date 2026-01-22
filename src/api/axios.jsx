@@ -26,6 +26,7 @@ api.interceptors.response.use(
   async (error) => {
     const originalRequest = error.config;
 
+    // Handle 401 Unauthorized errors and attempt token refresh
     if (error.response?.status === 401 && !originalRequest._retry) {
       originalRequest._retry = true;
       
@@ -35,6 +36,7 @@ api.interceptors.response.use(
             throw new Error("No refresh token available");
         }
 
+        // Use the dynamic BASE_URL for the refresh call
         const response = await axios.post(
           `${BASE_URL}/Auth/refresh?refreshToken=${encodeURIComponent(refreshToken)}`
         );

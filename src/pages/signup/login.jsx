@@ -1,36 +1,39 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-// CHANGE THIS LINE:
-import api from "../../api/axios"; 
 import { toast } from "react-toastify";
 import { FiMail, FiLock, FiArrowRight, FiLogIn } from "react-icons/fi";
-import { useAuth } from "../../context/AuthContext"; // Also check this path if you have context
+import { useAuth } from "../../context/AuthContext";
 
 function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
-  // const { login } = useAuth(); // Uncomment if using context
+  //login
+  const { login } = useAuth(); 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
 
     try {
-      const res = await api.post("/Auth/login", { email, password });
-      
-      const { token, refreshToken, role } = res.data; // Note: Ensure backend sends 'role' (lowercase) or 'Role'
+    
+      const res = await login(email, password);
 
-      localStorage.setItem("token", token);
-      localStorage.setItem("refreshToken", refreshToken);
-      // Backend DTO usually sends properties in PascalCase or camelCase depending on config.
-      // Your UserDetailsDto uses PascalCase (Role), check the response in network tab if 'undefined'.
-      localStorage.setItem("role", role || res.data.Role); 
+      const token = res.data.token || res.data.Token;
+      const decoded = JSON.parse(atob(token.split('.')[1]));
+
+  
+      const CLAIM_ROLE = "http://schemas.microsoft.com/ws/2008/06/identity/claims/role";
+      const userRole = decoded[CLAIM_ROLE] || decoded.role || decoded.Role;
+
+    
+      localStorage.setItem("role", userRole); 
       
       toast.success(`Welcome back!`);
 
-      if ((role || res.data.Role) === "Admin") {
+ 
+      if (userRole === "Admin") {
         navigate("/adminhome");
       } else {
         navigate("/");
